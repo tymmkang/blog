@@ -11,6 +11,9 @@ googleAnalytics             = ""
 pluralizeListTitles         = false
 disableLanguages            = []
 
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
 [markup.goldmark.renderer]
     unsafe                      = true
 
