@@ -7,9 +7,10 @@ title                       = "tymmkang's blog"
 theme                       = "hugo-future-imperfect-slim"
 paginate                    = 3
 disqusShortname             = "tymmkang"
-googleAnalytics             = ""
+googleAnalytics             = "UA-177223250-1"
 pluralizeListTitles         = false
 disableLanguages            = []
+enableRobotsTXT             = true
 
 pygmentsUseClasses = true
 pygmentsCodefences = true
@@ -18,8 +19,12 @@ pygmentsCodefences = true
     unsafe                      = true
 
 [outputs]
-    home                        = ["html", "json"]
+    home                        = ["html", "json", "rss"]
 
+[sitemap]
+    changefreq                  = "daily"
+    filename                    = "sitemap.xml"
+    
 [params]
     enableCDN                   = false
     cssFiles                    = ["default"]
